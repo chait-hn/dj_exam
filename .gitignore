@@ -1,7 +1,32 @@
 venv/
+
+# Python
 __pycache__/
-*.sqlite3
 *.pyc
-*.log
-.DS_Store
+
+# Django
+*.sqlite3
+db.sqlite3
+
+# 環境設定
 .env
+
+# メディア＆静的ファイル（あれば）
+media/
+staticfiles/
+*.log
+
+# VSCode 系
+.vscode/
+
+# Docker
+*.pid
+*.db
+*.tar
+*.bak
+
+# Macの隠しファイル
+.DS_Store
+
+# Jupyter ノートブック キャッシュなど（使ってれば）
+.ipynb_checkpoints/

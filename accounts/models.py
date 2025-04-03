@@ -1,3 +1,6 @@
+# accounts/models.py
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-# Create your models here.
+class CustomUser(AbstractUser):
+    pass  # ここに将来、role や display_name を追加してもOK！
